@@ -4,11 +4,9 @@ body {
 
 .timeline {
   border-left: 1px solid hsl(0, 0%, 90%);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
+  position: relative;
+  left: 0;
+  right: 0;
   list-style: none;
 }
 

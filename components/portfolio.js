@@ -3,8 +3,8 @@ export default function Portfolio() {
         <>
             <div class="container">
                 <div class="portfolio">
+                    <h1>Portfolio</h1>
                     <div class="row">
-                        <h1>Portfolio</h1>
                         <p>under development</p>
                     </div>
                 </div>

@@ -32,7 +32,7 @@ export default function Timeline() {
                             Graduated from: Tokyo Institute of Technology, Faculty of Materials Science
                         </li>
                         <li class="text-muted">
-                            Research topic: <a href="https://www.tandfonline.com/doi/full/10.1080/27660400.2022.2039573">Exploration of green-light emitting semiconductors using computational materials database and machine learning</a>
+                            Research topic: <a href="https://www.tandfonline.com/doi/full/10.1080/27660400.2022.2039573" class="link-info">Exploration of green-light emitting semiconductors using computational materials database and machine learning</a>
                         </li>
                         <li class="text-muted">
                             This study showed the potential of accelerating development in Materials Science by using Bayesian Optimization.

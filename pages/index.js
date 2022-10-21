@@ -14,9 +14,9 @@ const Index = () => {
                     <div>
                         <Timeline />
                     </div>
-                    {/* <div>
+                    <div>
                         <Portfolio />
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </>
