@@ -3,9 +3,6 @@ export default function Profile() {
         <div class="container mt-5" id="profile">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-7">
-                    <div class="text-center">
-                        <img src="icon.png" width="100" class="rounded-circle"></img>
-                    </div>
                     <div class="text-center mt-3">
                         <h2 class="mt-2 mb-0">Hirotaka Aoki</h2>
                         <span>Junior Engineer</span>
