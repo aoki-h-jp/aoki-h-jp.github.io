@@ -38,18 +38,22 @@ const Index: VFC = () => {
     );
 }
 
+interface HTMLElementEvent<T extends HTMLElement> extends Event {
+  target: T;
+}
+
 if (process.browser) {
   document.body.classList.add("light-theme");
   const lightBtn = document.querySelector("#isLightMode");
   const darkBtn = document.querySelector("#isDarkMode");
 
-  lightBtn!.addEventListener('click', () => {
+  lightBtn.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
       document.body.classList.remove("dark-theme");
       document.body.classList.add("light-theme");
       }
   );
 
-  darkBtn!.addEventListener('click', () => {
+  darkBtn.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
       document.body.classList.remove("light-theme");
       document.body.classList.add("dark-theme");
       }
