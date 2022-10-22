@@ -1,7 +1,7 @@
-import { useTranslation } from 'next-i18next';
+import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
 export default function Profile() {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
     return (
         <div className="container mt-5">
             <div className="row d-flex align-items-center">

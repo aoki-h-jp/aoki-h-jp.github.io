@@ -1,7 +1,7 @@
-import { useTranslation } from 'next-i18next';
+import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
 export default function Timeline() {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
     return (
         <section className="py-5">
             <ul className="timeline">
