@@ -10,10 +10,10 @@ const Index: VFC = () => {
         <title>aoki-h-jp</title>
         <div className="container mt-1">
           <div className="row justify-content-end">
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <button type="button" className="btn btn-light" id="isLightMode">Light</button>
               <button type="button" className="btn btn-dark" id="isDarkMode">Dark</button>
-            </div>
+            </div> */}
             <div className="col-auto">
               <LanguageSwitcher lang="en"><button type="button" className="btn btn-outline-primary">English</button></LanguageSwitcher>
               <LanguageSwitcher lang="ja"><button type="button" className="btn btn-outline-primary">日本語</button></LanguageSwitcher>
@@ -47,13 +47,13 @@ if (process.browser) {
   const lightBtn = document.querySelector("#isLightMode");
   const darkBtn = document.querySelector("#isDarkMode");
 
-  lightBtn.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
+  lightBtn!.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
       document.body.classList.remove("dark-theme");
       document.body.classList.add("light-theme");
       }
   );
 
-  darkBtn.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
+  darkBtn!.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
       document.body.classList.remove("light-theme");
       document.body.classList.add("dark-theme");
       }
