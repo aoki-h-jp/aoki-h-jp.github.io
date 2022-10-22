@@ -2,15 +2,6 @@ import Timeline from '../components/timeline';
 import Profile from '../components/profile';
 import Portfolio from '../components/portfolio';
 import type { VFC } from 'react'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-
-export async function getStaticProps({ locale }: {locale: string}) {
-  return {
-    props: {
-      ...await serverSideTranslations(locale as string, ['common']),
-    }
-  };
-}
 
 const Index: VFC = () => {
     return (
