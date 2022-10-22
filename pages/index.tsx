@@ -51,13 +51,13 @@ if (process.browser) {
   const lightBtn = document.querySelector("#isLightMode");
   const darkBtn = document.querySelector("#isDarkMode");
 
-  lightBtn.addEventListener('click', () => {
+  lightBtn!.addEventListener('click', () => {
       document.body.classList.remove("dark-theme");
       document.body.classList.add("light-theme");
       }
   );
 
-  darkBtn.addEventListener('click', () => {
+  darkBtn!.addEventListener('click', () => {
       document.body.classList.remove("light-theme");
       document.body.classList.add("dark-theme");
       }
