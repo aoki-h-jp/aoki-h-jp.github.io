@@ -1,35 +1,29 @@
 {
   "name": "aoki-h-jp.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aoki-h-jp/aoki-h-jp.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aoki-h-jp/aoki-h-jp.github.io/issues"
-  },
-  "homepage": "https://github.com/aoki-h-jp/aoki-h-jp.github.io#readme",
   "dependencies": {
+    "@types/bootstrap": "^5.2.5",
+    "@types/react-bootstrap": "^0.32.31",
     "bootstrap": "^5.2.2",
-    "next": "^12.3.1",
-    "react": "^18.2.0",
+    "next": "12.3.1",
+    "next-i18next": "^12.1.0",
+    "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
     "typescript": "4.8.4"
   }
 }

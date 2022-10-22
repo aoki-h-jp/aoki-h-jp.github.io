@@ -1,0 +1,40 @@
+{
+    "profile": {
+        "name": "Hirotaka Aoki",
+        "subTitle": "Junior Engineer",
+        "birthTitle": "Birth:",
+        "birth": "NOV 1995",
+        "birthPlaceTitle": "BirthPlace:",
+        "birthPlace": "Japan, Chiba, Sakura City",
+        "interestTitle": "Interest:",
+        "interest": "watching football games, traveling, playing games and engineering",
+        "emailTitle": "E-mail:",
+        "email": "aoki.hirotaka.biz@gmail.com",
+        "githubTitle": "Github:",
+        "github": "@aoki-h-jp"
+    },
+    "timeline": {
+        "timelineTitle": "Background & Experience",
+        "bachTitle": "Bachelor of Engineering",
+        "bachPeriod": "APR 2015 - MAR 2019",
+        "bachGrad": "Graduated from: Tokyo University of Science, Faculty of Materials Science",
+        "bachTopic": "Research topic: Feature extraction using persistent homology in spinodal decomposition",
+        "bachText": "This study showed the potential of more efficient experiments by extracting features from microscope images.",
+        "masTitle": "Master of Engineering",
+        "masPeriod": "APR 2019 - MAR 2021",
+        "masGrad": "Graduated from: Tokyo Institute of Technology, Faculty of Materials Science",
+        "masTopic": "Research topic: Exploration of green-light emitting semiconductors using computational materials database and machine learning",
+        "masText": "This study showed the potential of accelerating development in Materials Science by using Bayesian Optimization.",
+        "compTitle": "WeatherNews Inc.",
+        "compPeriod": "APR 2021 - MAY 2022",
+        "compText1": "Design and operation of migration services for shipping industry from on-premises to cloud (AWS).",
+        "compText2": "Completed a project to improve working environment as a leader of the same period co-worker.",
+        "curTitle": "Current",
+        "curPeriod": "JUN 2022 -",
+        "curText1": "Developing my personal project.",
+        "curText2": "Training to full-stack middle engineer."
+    },
+    "portfolio": {
+        "text": "under construction"
+    }
+}
