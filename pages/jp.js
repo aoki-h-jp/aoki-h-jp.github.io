@@ -1,7 +1,6 @@
-import Timeline from '../components/en/timeline';
-import Profile from '../components/en/profile';
-import Portfolio from '../components/en/portfolio';
-
+import Timeline from "../components/jp/timeline";
+import Profile from "../components/jp/profile";
+import Portfolio from "../components/jp/portfolio";
 
 export default function Index() {
     return (
@@ -14,8 +13,8 @@ export default function Index() {
                         <button type="button" class="btn btn-dark" id="isDarkMode">Dark</button>
                     </div>
                     <div class="col-auto">
-                        <button type="button" class="btn btn-outline-primary">English</button>
-                        <a href="jp" type="button" class="btn btn-outline-primary">日本語</a>
+                        <a href="https://aoki-h-jp.github.io/" type="button" class="btn btn-outline-primary">English</a>
+                        <button type="button" class="btn btn-outline-primary">日本語</button>
                     </div>
                 </div>
             </div>

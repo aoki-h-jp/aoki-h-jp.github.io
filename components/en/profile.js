@@ -1,6 +1,6 @@
 export default function Profile() {
     return (
-        <div class="container mt-5" id="profile">
+        <div class="container mt-5">
             <div class="row d-flex align-items-center">
                 <div class="col-3">
                     <div class="text-center mt-3">

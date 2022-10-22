@@ -1,5 +1,13 @@
-body {
+.light-theme {
   background-color: aliceblue;
+  color: #121212;
+  --bs-body-color: #121212;
+}
+
+.dark-theme {
+  background: #121212;
+  color: #ddd;
+  --bs-body-color: #ddd;
 }
 
 .timeline {

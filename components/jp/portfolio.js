@@ -5,7 +5,7 @@ export default function Portfolio() {
                 <div class="portfolio">
                     <h1>Portfolio</h1>
                     <div class="row">
-                        <p>under development</p>
+                        <p class="text-muted">開発中</p>
                     </div>
                 </div>
             </div>
