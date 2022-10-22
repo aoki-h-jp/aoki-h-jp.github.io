@@ -2,6 +2,7 @@ import Timeline from '../components/timeline';
 import Profile from '../components/profile';
 import Portfolio from '../components/portfolio';
 import type { VFC } from 'react'
+import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
 const Index: VFC = () => {
     return (
@@ -14,8 +15,8 @@ const Index: VFC = () => {
               <button type="button" className="btn btn-dark" id="isDarkMode">Dark</button>
             </div>
             <div className="col-auto">
-              <a href="en" type="button" className="btn btn-outline-primary">English</a>
-              <a href="ja" type="button" className="btn btn-outline-primary">日本語</a>
+              <LanguageSwitcher lang="en"><button type="button" className="btn btn-outline-primary">English</button></LanguageSwitcher>
+              <LanguageSwitcher lang="ja"><button type="button" className="btn btn-outline-primary">日本語</button></LanguageSwitcher>
             </div>
           </div>
         </div>
