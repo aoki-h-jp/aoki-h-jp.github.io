@@ -35,6 +35,9 @@
         "curText2": "ミドルクラスのエンジニアを目指して分野問わず吸収中です。"
     },
     "portfolio": {
-        "text": "開発中"
+        "cardPlayground": {
+            "subTitle": "学習用のgithub repoです。",
+            "subscription": "扱ったことのない言語やフレームワークなどを実験・学習する場として使っています。"
+        }
     }
 }

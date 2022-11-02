@@ -41,3 +41,7 @@ body {
   width: 11px;
   content: "";
 }
+
+.card {
+  width: 18rem;
+}
