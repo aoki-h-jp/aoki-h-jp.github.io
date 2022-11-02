@@ -35,6 +35,9 @@
         "curText2": "Training to full-stack middle engineer."
     },
     "portfolio": {
-        "text": "under construction"
+        "cardPlayground": {
+            "subTitle": "github repo for my training",
+            "subscription": "My playground for programming training and learning new programming languages or framework."
+        }
     }
 }
