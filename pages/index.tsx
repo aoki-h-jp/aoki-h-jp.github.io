@@ -34,6 +34,11 @@ const Index: VFC = () => {
             </div>
           </div>
         </div>
+        <footer className="footer mt-auto py-3">
+          <div className="container">
+            <div className='text-end'>Last update: 2022/11/03</div>
+          </div>
+        </footer>
       </>
     );
 }
