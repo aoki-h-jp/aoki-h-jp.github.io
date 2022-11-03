@@ -3,14 +3,14 @@ body {
   color:#121212;
 }
 
-.light-theme {
-  background-color: aliceblue;
+body.light-mode {
+  background-color: #fff;
   color: #121212;
   --bs-body-color: #121212;
+  transition: background-color 0.3s ease;
 }
-
-.dark-theme {
-  background: #121212;
+body.dark-mode {
+  background-color: #121212;
   color: #ddd;
   --bs-body-color: #ddd;
 }
@@ -44,4 +44,8 @@ body {
 
 .card {
   width: 18rem;
+}
+
+.card-text {
+  color:#121212;
 }

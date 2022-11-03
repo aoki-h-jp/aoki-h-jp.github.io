@@ -3,17 +3,20 @@ import Profile from '../components/profile';
 import Portfolio from '../components/portfolio';
 import type { VFC } from 'react'
 import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+import useDarkMode from 'use-dark-mode';
 
 const Index: VFC = () => {
+    const darkMode = useDarkMode(false);
     return (
       <>
+        <script src='noflash.js'></script>
         <title>aoki-h-jp</title>
         <div className="container mt-1">
           <div className="row justify-content-end">
-            {/* <div className="col-auto">
-              <button type="button" className="btn btn-light" id="isLightMode">Light</button>
-              <button type="button" className="btn btn-dark" id="isDarkMode">Dark</button>
-            </div> */}
+            <div className="col-auto">
+              <button type="button" className="btn btn-light" onClick={darkMode.disable}>Light</button>
+              <button type="button" className="btn btn-dark" onClick={darkMode.enable}>Dark</button>
+            </div>
             <div className="col-auto">
               <LanguageSwitcher lang="en"><button type="button" className="btn btn-outline-primary">English</button></LanguageSwitcher>
               <LanguageSwitcher lang="ja"><button type="button" className="btn btn-outline-primary">日本語</button></LanguageSwitcher>
@@ -42,27 +45,5 @@ const Index: VFC = () => {
       </>
     );
 }
-
-// interface HTMLElementEvent<T extends HTMLElement> extends Event {
-//   target: T;
-// }
-
-// if (process.browser) {
-//   document.body.classList.add("light-theme");
-//   const lightBtn = document.querySelector("#isLightMode");
-//   const darkBtn = document.querySelector("#isDarkMode");
-
-//   lightBtn!.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
-//       document.body.classList.remove("dark-theme");
-//       document.body.classList.add("light-theme");
-//       }
-//   );
-
-//   darkBtn!.addEventListener('click', (event: HTMLElementEvent<HTMLInputElement>) => {
-//       document.body.classList.remove("light-theme");
-//       document.body.classList.add("dark-theme");
-//       }
-//   );
-// }
 
 export default Index;
