@@ -1,7 +1,7 @@
 {
     "profile": {
         "name": "Hirotaka Aoki",
-        "subTitle": "Junior Engineer",
+        "subTitle": "Software Engineer",
         "birthTitle": "生まれ:",
         "birth": "1995 / 11",
         "birthPlaceTitle": "出生地:",
@@ -9,12 +9,11 @@
         "interestTitle": "趣味:",
         "interest": "サッカー観戦、旅行、ゲーム、個人開発",
         "emailTitle": "E-mail:",
-        "email": "aoki.hirotaka.biz@gmail.com",
-        "githubTitle": "Github:",
-        "github": "@aoki-h-jp"
+        "email": "aoki.hirotaka.biz [at] gmail.com",
+        "socialTitle": "Social:"
     },
     "timeline": {
-        "timelineTitle": "経歴",
+        "timelineTitle": "経歴 職歴",
         "bachTitle": "大学",
         "bachPeriod": "2015 / 04 - 2019 / 03",
         "bachGrad": "卒業校: 東京理科大学基礎工学部材料工学科",
@@ -31,8 +30,9 @@
         "compText2": "同期社員のリーダーとして社内環境を良くするためのプロジェクトを完遂しました。",
         "curTitle": "現在",
         "curPeriod": "2022 / 06 -",
-        "curText1": "個人開発を行なっています。",
-        "curText2": "ミドルクラスのエンジニアを目指して分野問わず吸収中です。"
+        "curText1": "AWSなどサーバーサイドのエンジニアとして仕事をしています。",
+        "curText2": "個人開発を行なっています。",
+        "curText3": "ミドルクラスのエンジニアを目指して分野問わず吸収中です。"
     },
     "portfolio": {
         "cardPlayground": {

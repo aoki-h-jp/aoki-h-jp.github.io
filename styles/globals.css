@@ -1,18 +1,35 @@
 body {
   background-color: aliceblue;
-  color:#121212;
+  color: #121212;
 }
 
 body.light-mode {
-  background-color: #fff;
+  background: linear-gradient(135deg, #6CACFF, #8DEBFF);
   color: #121212;
   --bs-body-color: #121212;
   transition: background-color 0.3s ease;
 }
+
 body.dark-mode {
   background-color: #121212;
   color: #ddd;
   --bs-body-color: #ddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.light-mode .github-color {
+  color: #171515;
+}
+
+body.dark-mode .github-color {
+  color: #e8eaea;
+}
+
+.linkedin-color {
+  color: #0A66C2;
 }
 
 .timeline {
@@ -47,5 +64,5 @@ body.dark-mode {
 }
 
 .card-text {
-  color:#121212;
+  color: #121212;
 }

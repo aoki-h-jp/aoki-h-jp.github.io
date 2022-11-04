@@ -1,7 +1,7 @@
 {
     "profile": {
         "name": "Hirotaka Aoki",
-        "subTitle": "Junior Engineer",
+        "subTitle": "Software Engineer",
         "birthTitle": "Birth:",
         "birth": "NOV 1995",
         "birthPlaceTitle": "BirthPlace:",
@@ -9,9 +9,8 @@
         "interestTitle": "Interest:",
         "interest": "watching football games, traveling, playing games and engineering",
         "emailTitle": "E-mail:",
-        "email": "aoki.hirotaka.biz@gmail.com",
-        "githubTitle": "Github:",
-        "github": "@aoki-h-jp"
+        "email": "aoki.hirotaka.biz [at] gmail.com",
+        "socialTitle": "Social:"
     },
     "timeline": {
         "timelineTitle": "Background & Experience",
@@ -31,8 +30,9 @@
         "compText2": "Completed a project to improve working environment as a leader of the same period co-worker.",
         "curTitle": "Current",
         "curPeriod": "JUN 2022 -",
-        "curText1": "Developing my personal project.",
-        "curText2": "Training to full-stack middle engineer."
+        "curText1": "Working as a server-side engineer.",
+        "curText2": "Developing my personal project.",
+        "curText3": "Self-training to full-stacked middle engineer."
     },
     "portfolio": {
         "cardPlayground": {
