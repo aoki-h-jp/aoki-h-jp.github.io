@@ -1,6 +1,7 @@
 import Timeline from "../components/timeline";
 import Profile from "../components/profile";
 import Portfolio from "../components/portfolio";
+import Certification from "../components/certification";
 import type { VFC } from "react";
 import { LanguageSwitcher } from "next-export-i18n";
 import useDarkMode from "use-dark-mode";
@@ -54,6 +55,9 @@ const Index: VFC = () => {
           </div>
           <div>
             <Portfolio />
+          </div>
+          <div>
+            <Certification />
           </div>
         </div>
       </div>
