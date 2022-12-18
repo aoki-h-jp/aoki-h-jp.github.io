@@ -91,6 +91,12 @@ export default function Certification() {
                   className="img-fluid"
                 ></img>
               </div>
+              <div className="col-2">
+                <img
+                  src="./img/lpic-certification/1.png"
+                  className="img-fluid"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
