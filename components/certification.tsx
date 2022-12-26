@@ -97,6 +97,12 @@ export default function Certification() {
                   className="img-fluid"
                 ></img>
               </div>
+              <div className="col-2">
+                <img
+                  src="./img/oracle-java-certification/Bronze.png"
+                  className="img-fluid"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
