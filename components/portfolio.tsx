@@ -9,7 +9,7 @@ export default function Portfolio() {
           <h1>Portfolio</h1>
           <br></br>
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-3 col-xs-12 my-2">
               <div className="card h-100">
                 <img
                   src="./img/funding-rate-arbitrage.jpg"
@@ -30,7 +30,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-3 col-xs-12 my-2">
               <div className="card h-100">
                 <img
                   src="./img/playground.png"
