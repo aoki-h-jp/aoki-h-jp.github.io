@@ -38,6 +38,10 @@
         "cardPlayground": {
             "subTitle": "学習用のgithub repoです。",
             "subscription": "扱ったことのない言語やフレームワークなどを実験・学習する場として使っています。"
+        },
+        "cardFundingRate": {
+            "subTitle": "取引所間の資金調達率を可視化",
+            "subscription": "暗号通貨取引所間の資金調達率の鞘取りを簡単に行うためのPythonフレームワークです。"
         }
     }
 }
