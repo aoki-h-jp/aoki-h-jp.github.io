@@ -42,6 +42,14 @@
         "cardFundingRate": {
             "subTitle": "取引所間の資金調達率を可視化",
             "subscription": "暗号通貨取引所間の資金調達率の鞘取りを簡単に行うためのPythonフレームワークです。"
+        },
+        "cardBinanceBulkDownloader": {
+            "subTitle": "Binanceからデータを一括ダウンロード",
+            "subscription": "Binanceからヒストリカルデータを一括で効率的にダウンロードします。全てのデータに対応しています。"
+        },
+        "cardBybitBulkDownloader": {
+            "subTitle": "Bybitからデータを一括ダウンロード",
+            "subscription": "Bybitからヒストリカルデータを一括で効率的にダウンロードします。全てのデータに対応しています。"
         }
     }
 }
